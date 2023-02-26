@@ -1,7 +1,4 @@
-import 'dart:developer';
-
 import 'package:demo_riverpod/constants/constants.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:http/http.dart';
 
 import '../models/photos_model.dart';
@@ -16,5 +13,3 @@ class PhotosApi {
     }
   }
 }
-
-final photosApiProvider = Provider<PhotosApi>((ref) => PhotosApi());
